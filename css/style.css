@@ -1,0 +1,88 @@
+body{
+    background-color: black;}
+p{ color:white;}
+h1{color:white;
+text-decoration: underline;}
+h2{color:white;}
+h3{color:green;
+ text-decoration: underline;}
+h4{color:green;}
+button{color:green;}
+
+
+#bioImage{ 
+    width: 200px;
+    padding: 5%;
+}
+
+.color-box {
+    width: 100%; 
+    height: 2.5px; 
+    background-color: green; 
+    margin-bottom: 20px;
+    z-index: -1;
+  }
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content:space-around;
+}
+
+  
+#localSocial{
+    width: 200px;
+    max-width: 50%;
+    padding: 5%;}
+    
+#paws{ 
+    width:200px;
+    max-width: 50%;
+    padding: 5%;}
+#archive{
+    width: 500px;px;
+    padding: 5%;
+}
+button{
+    width:60px;
+    height:40px;
+    margin-top:10px;
+
+}
+
+.workGrid {
+    display: grid;
+    justify-content: space-between;
+
+}
+
+.workItem{
+    width: calc(50%-10px);
+    margin-bottom: 10px;
+}
+.workItem img{
+}
+
+.workDetails{
+    padding: 5%;
+    background-color:rgba(62, 66, 112, 1);
+    border: 1.5px solid green;
+}
+
+
+@media only screen and (max-width:600){
+    .flexContainer{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .workGrid{
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "workItem" "workItem" "workItem";
+    }
+}
+
+
+
+
