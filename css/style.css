@@ -6,13 +6,18 @@ text-decoration: underline;}
 h2{color:white;}
 h3{color:green;
  text-decoration: underline;}
-h4{color:green;}
+h4{color:green; 
+text-decoration: underline;
+font-size:x-large;}
+
 button{color:green;}
 
 
 #bioImage{ 
     width: 200px;
     padding: 5%;
+    border: 2px;
+    border-color: green;
 }
 
 .color-box {

@@ -4,6 +4,7 @@
 <title> Caroline Reeb </title>
 <link rel="stylesheet" href="css/style.css"/>
 </head>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <body>
 <!--  My UX Skills section coded using CSS flex -->
 <secion class="mySKills">
@@ -13,6 +14,36 @@
     <div> 
         <img src="Images/bio pic 2.jpg" id="bioImage">
     </div>
+    <title>Jquery element Button with hover</title>
+  <style>
+    
+    .darken-on-hover {
+     width: 200px;
+     height: 50 px;
+      padding: 30px, 30px;
+      background-color: green;
+      color: #fff;
+      border: 1;
+      border-color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    
+    .darken-on-hover:hover {
+      background-color: rgba(62, 66, 112, 1);
+      border:1;
+      border-color: #fff;
+    }
+
+   
+    .darken-on-hover.clicked {
+      background-color: #000;
+      border:1;
+      border-color:#fff
+    }
+  </style>
+    <button class="darken-on-hover">Contact Me</button>
     <div> 
         <h3> Graphic Design </h3>
     </div>
@@ -23,13 +54,13 @@
         <h3> Adobe Suites </h3>
     </div>
     <div> 
-        <p> Through my degree, work history, and interests in art, I have developed my skillset with the adobe suites </p>
+        <p> Through my degree, work history, and interests in art, I have developed my skillset with the adobe suites. </p>
     </div>
     <div>
     <h3> Complex Problem Solving </h3>
 </div>
 <div> 
-    <p> Through my degree, work history, and interests in art, I have developed my skillset with the adobe suites </p>
+    <p> I excel at problem-solving due to my extensive and diverse work history, which has equipped me with a versatile skill set and the ability to approach challenges from various perspectives. </p>
 </div>
 </div>
 </secion>
@@ -75,4 +106,7 @@
 
 </section>
 </body>
+
+<script src="js/index.js"> </script>
+
 </html>
